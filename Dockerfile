@@ -6,7 +6,6 @@ COPY package.json /app
 COPY yarn.lock /app
 RUN yarn install
 COPY . /app
-#RUN yarn test
 RUN yarn build
 CMD yarn start
 
