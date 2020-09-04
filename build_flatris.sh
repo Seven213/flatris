@@ -7,5 +7,6 @@ git clone https://github.com/avgitpal/flatris.git
 #docker build . -t flatris
 
 docker-compose build
-docker-compose up -d
+docker-compose up
+#docker-compose up -d
 #docker-compose down
