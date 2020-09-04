@@ -1,8 +1,8 @@
 #!/bin/bash
 
 git clone https://github.com/avgitpal/flatris.git
-cp Dockerfile ./flatris
-cp docker-compose.yaml ./flatris
+#cp Dockerfile ./flatris
+#cp docker-compose.yaml ./flatris
 cd flatris/
 #docker build . -t flatris
 
